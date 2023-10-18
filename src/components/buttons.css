@@ -1,0 +1,42 @@
+.buttons {
+  padding: 24px 0 32px 0;
+  display: flex;
+  gap: 17px;
+  fill: var(--Dark-Blue, #262e38);
+}
+.button {
+  width: 42px;
+  height: 42px;
+  background-color: #262e38;
+  border-radius: 20px;
+  color: var(--Medium-Gray, #7c8798);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+.submit {
+  border-radius: 22.5px;
+  background: var(--Orange, #fc7614);
+  color: var(--Pure-White, #fff);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 279px;
+  text-align: center;
+  padding: 11px 0;
+  cursor: pointer;
+}
+.submit-btn {
+  padding: 0 10px 32px 0px;
+  display: flex;
+}
+
+button:hover {
+  background-color: #fc7614;
+}
+.background {
+  background-color: #7c8798;
+  color: #fff;
+}

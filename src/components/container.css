@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 291px;
+  border-radius: 15px;
+  background: var(
+    --black-gradient,
+    radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%)
+  );
+  /* height: 350px; */
+  padding: 24px 24px 0 24px;
+}
+.star {
+  width: 40px;
+  height: 40px;
+  background-color: #262e38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.texts1 {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h1 {
+  color: var(--Pure-White, #fff);
+  font-size: 24px;
+  font-weight: 700;
+}
+.describe {
+  color: var(--Light-Grey, #969fad);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
