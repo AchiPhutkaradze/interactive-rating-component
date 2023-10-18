@@ -8,7 +8,7 @@
   width: 42px;
   height: 42px;
   background-color: #262e38;
-  border-radius: 20px;
+  border-radius: 50%;
   color: var(--Medium-Gray, #7c8798);
   font-size: 16px;
   font-weight: 700;
@@ -33,10 +33,24 @@
   display: flex;
 }
 
-button:hover {
-  background-color: #fc7614;
-}
 .background {
   background-color: #7c8798;
   color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .button {
+    width: 51px;
+    height: 51px;
+  }
+  .submit {
+    width: 341px;
+    height: 45px;
+  }
+  .submit:hover {
+    background: var(--Pure-White, #fff);
+    color: #fc7614;
+  }
+  button:hover {
+    background-color: #fc7614;
+  }
 }
